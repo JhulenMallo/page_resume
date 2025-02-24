@@ -827,6 +827,9 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+    width: 100%; /* Cambia esto al tamaño deseado */
+  height: 340px; /* Cambia esto al tamaño deseado */
+  object-fit: contain;
 }
 
 .portfolio .portfolio-content .portfolio-info {
